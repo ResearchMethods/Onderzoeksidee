@@ -1,6 +1,7 @@
 ---
 title: Research Idea
 author: Hendrik Werner s4549775
+fontsize: 12pt
 geometry: margin=5em
 ---
 
