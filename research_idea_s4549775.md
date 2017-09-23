@@ -1,8 +1,7 @@
 ---
+title: Research Idea
 geometry: margin=5em
 ---
-
-# Research Idea
 
 Author=Hendrik Werner
 
