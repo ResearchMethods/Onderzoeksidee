@@ -46,6 +46,8 @@ The IPv10 proposal claims to solve the communication and transition problems, wh
 
 # Theoretical Background
 
+Both [IPv4](https://tools.ietf.org/html/rfc791) and [IPv6](https://tools.ietf.org/html/rfc2460) were introduced through RFCs (request for comment), which are the usual publication medium for standards by the IETF (Internet engineering task force). The RFC were proposed and went through several rounds of comments, and changes, until they got accepted and published in their final form.
+
 # Method
 
 # Literature
