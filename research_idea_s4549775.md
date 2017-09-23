@@ -1,10 +1,10 @@
 # Research Idea
 
-Auteur=Hendrik Werner
+Author=Hendrik Werner
 
-Onderwerp=IPv10
+Topic=IPv10
 
-Academisch jaar::2017-18
+Academic year::2017-18
 
 ---
 
