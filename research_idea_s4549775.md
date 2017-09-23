@@ -1,3 +1,7 @@
+---
+geometry: margin=5em
+---
+
 # Research Idea
 
 Author=Hendrik Werner
