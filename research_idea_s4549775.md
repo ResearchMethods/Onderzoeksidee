@@ -21,6 +21,18 @@ Should the IPv10 draft be accepted and implemented as a solution to the current 
 
 # Problem
 
+Does IPv10 meet its declared goals?
+
+* Is the proposed solution more efficient than currently used ones?
+* Does it allow for communication between all types of hosts?
+	* IPv4 / IPv4
+	* IPv4 / IPv6
+	* IPv6 / IPv4
+	* IPv6 / IPv6
+* Does it increase flexibility when using DNS?
+* Does it solve the transition problem?
+* Is it easy to deploy to all Internet connected hosts?
+
 # Relevance
 
 # Theoretical Background
