@@ -1,5 +1,6 @@
 ---
 title: Research Idea
+author: Hendrik Werner s4549775
 geometry: margin=5em
 ---
 
