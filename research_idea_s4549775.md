@@ -15,3 +15,7 @@ Academisch jaar::2017-18
 ## Relevance
 
 ## Theoretical Background
+
+## Method
+
+## Literature
