@@ -52,6 +52,10 @@ We want to subject the IPv10 proposal to the same scrutiny, in order to decide w
 
 # Method
 
+The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
+
+If this should be necessary, we will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
+
 # Literature
 
 * http://ieeexplore.ieee.org/abstract/document/1191589/
