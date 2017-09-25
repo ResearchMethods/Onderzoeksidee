@@ -53,3 +53,8 @@ We want to subject the IPv10 proposal to the same scrutiny, in order to decide w
 # Method
 
 # Literature
+
+* http://ieeexplore.ieee.org/abstract/document/1191589/
+* https://www.google.com/patents/US6118784
+* https://www.rfc-editor.org/info/rfc6219
+* https://buildbot.tools.ietf.org/html/rfc6052
