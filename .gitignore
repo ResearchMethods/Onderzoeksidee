@@ -1,2 +1,13 @@
 /references/
+/*.md
+/*.aux
+/*.bbl
+/*.bcf
+/*.blg
+/*.log
+/*.out
 /*.pdf
+/*.run.xml
+/*.tex
+/*.tex.bbl
+/*.tex.blg
