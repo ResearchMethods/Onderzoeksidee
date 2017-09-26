@@ -2,6 +2,7 @@
 title: Research Idea
 author: Hendrik Werner s4549775
 date: \today
+bibliography: references.bib
 fontsize: 12pt
 geometry: margin=5em
 ---
@@ -58,7 +59,6 @@ If this should be necessary, we will also do a survey of members of the C&CZ, to
 
 # Literature
 
-* http://ieeexplore.ieee.org/abstract/document/1191589/
 * https://www.google.com/patents/US6118784
 * https://www.rfc-editor.org/info/rfc6219
 * https://buildbot.tools.ietf.org/html/rfc6052
