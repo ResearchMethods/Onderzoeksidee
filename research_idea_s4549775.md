@@ -59,5 +59,4 @@ If this should be necessary, we will also do a survey of members of the C&CZ, to
 
 # Literature
 
-* https://www.rfc-editor.org/info/rfc6219
 * https://buildbot.tools.ietf.org/html/rfc6052
