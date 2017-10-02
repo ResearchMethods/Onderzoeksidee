@@ -58,5 +58,3 @@ The research method we want to use is a case study, in which we transition (some
 If this should be necessary, we will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
 
 # Literature
-
-* https://buildbot.tools.ietf.org/html/rfc6052
