@@ -51,6 +51,8 @@ Both IPv4 [@rfc791] and IPv6 [@rfc2460] were introduced through RFCs (request fo
 
 We want to subject the IPv10 proposal to the same scrutiny, in order to decide whether to adopt it as the new standard Internet protocol. There are several established methods to deal with coexistence, as well as transition of IPv4 and IPv6 hosts. Therefore we not only want to test whether the claims made in the proposal hold up, but also how the new protocol compares to existing solutions, currently deployed.
 
+IPv4 and IPv6 use different, incompatible header formats, which is the reason for all the communication and transition problems. The main reason for this incompatibility is the different address space. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses [@rfc791; @rfc2460].
+
 # Method
 
 The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
