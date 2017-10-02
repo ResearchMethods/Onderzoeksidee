@@ -47,7 +47,7 @@ The IPv10 proposal claims to solve the communication and transition problems, wh
 
 # Theoretical Background
 
-Both [IPv4](https://tools.ietf.org/html/rfc791) and [IPv6](https://tools.ietf.org/html/rfc2460) were introduced through RFCs (request for comment), which are the usual publication medium for standards by the IETF (Internet engineering task force). The RFCs were proposed and went through several rounds of comments, and changes, until they got accepted and published in their final form.
+Both IPv4 [@rfc791] and [IPv6](https://tools.ietf.org/html/rfc2460) were introduced through RFCs (request for comment), which are the usual publication medium for standards by the IETF (Internet engineering task force). The RFCs were proposed and went through several rounds of comments, and changes, until they got accepted and published in their final form.
 
 We want to subject the IPv10 proposal to the same scrutiny, in order to decide whether to adopt it as the new standard Internet protocol. There are several established methods to deal with coexistence, as well as transition of IPv4 and IPv6 hosts. Therefore we not only want to test whether the claims made in the proposal hold up, but also how the new protocol compares to existing solutions, currently deployed.
 
