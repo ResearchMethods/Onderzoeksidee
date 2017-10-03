@@ -43,7 +43,7 @@ There is the problem of transitioning from one protocol to the other though. Des
 
 The Internet is far too complex, big, and diverse to allow for a "switch day" as proposed before. The workarounds are mostly ad hoc, or complex, and don't solve many of the problems. The number of IPv6 hosts is still increasing only very slowly.
 
-The IPv10 proposal claims to solve the communication and transition problems, while being easy to deploy, efficient, and flexible. It is important to test these claims in order to decide whether to officially adopt the standard, and to ultimately finally solve the problems with IPv4 that were identified decades ago.
+The IPv10 proposal claims to solve the communication and transition problems, while being easy to deploy, efficient, and flexible. It is important to test these claims in order to decide whether to officially adopt the standard, and to ultimately finally solve the problems with IPv4 that were identified decades ago. [@ipv10draft]
 
 # Theoretical Background
 
