@@ -57,7 +57,7 @@ It became apparent very quickly that a "switch day" was unrealistic, because of 
 
 From the beginning it was clear that these measures were not really satisfactory, and only transitional. The main factor that required the specification of a new Internet Protocol was the limited address space of IPv4 [@raicu2003]. IPv4 offers only $2^{32} = 4294967296 \approx 4.3bn$ addresses [@rfc791]. This seemed like a lot back when it was specified, but turned out not to be sufficient with the prevalence of the Internet and Internet connected devices.
 
-There are several currently available transition mechanisms, like IPv4/IPv6 Dual Stack, NAT, \dots. Most of these mechanisms have major drawbacks however, regarding complexity, scaling, authentication, \dots. [@raicu2003]
+There are several currently available transition mechanisms, like IPv4/IPv6 Dual Stack, NAT, \dots. Most of these mechanisms have major drawbacks however, regarding complexity, scaling, authentication, \dots. [@raicu2003; @rfc6052]
 
 The two most promising transition mechanisms are *host-to-host encapsulation* (6-over-4) and *router-to-router encapsulation* (IPv6 in IPv4 tunneling).
 
