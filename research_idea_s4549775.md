@@ -53,6 +53,8 @@ We want to subject the IPv10 proposal to the same scrutiny, in order to decide w
 
 IPv4 and IPv6 use different, incompatible header formats, which is the reason for all the communication and transition problems. The main reason for this incompatibility is the different address space. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses [@rfc791; @rfc2460].
 
+It became apparent very quickly that a "switch day" was unrealistic, because of the diversity, number of hosts, and complexity of the Internet. Even before specifying IPv6, the IETF published an RFC dealing with the addressing architecture that was going to be used in IPv6. It contains two forms of transitional IPv6 addresses, termed "IPv4-compatible IPv6 addresses", and "IPv4-mapped IPv6 addresses". These contain 32-bit IPv4 addresses embedded in the 128-bit IPv6 addresses. [@rfc1884]
+
 # Method
 
 The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
