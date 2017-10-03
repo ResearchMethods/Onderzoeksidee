@@ -57,6 +57,18 @@ It became apparent very quickly that a "switch day" was unrealistic, because of 
 
 From the beginning it was clear that these measures were not really satisfactory, and only transitional. The main factor that required the specification of a new Internet Protocol was the limited address space of IPv4 [@raicu2003]. IPv4 offers only $2^{32} = 4294967296 \approx 4.3bn$ addresses [@rfc791]. This seemed like a lot back when it was specified, but turned out not to be sufficient with the prevalence of the Internet and Internet connected devices.
 
+There are several currently available transition mechanisms, like IPv4/IPv6 Dual Stack, NAT, \dots. Most of these mechanisms have major drawbacks however, regarding complexity, scaling, authentication, \dots. [@raicu2003]
+
+The two most promising transition mechanisms are *host-to-host encapsulation* (6-over-4) and *router-to-router encapsulation* (IPv6 in IPv4 tunneling).
+
+> In the host-to-host encapsulation method, the encapsulation is done at the source host and the decapsulation is done at the destination host. The encapsulated datagrams are sent through a native IPv4 network that has no knowledge of the IPv6 network protocol.
+[@raicu2003]
+
+> In router-to-router tunneling mechanism, encapsulation is done at the edge router of the originating host and decapsulation is done at the edge router of the destination host.
+[@raicu2003]
+
+Host-to-host encapsulation performs better with regards to latency, throughput, and connection time, but leads to large increases in the CPU utilization of the hosts [@raicu2003].
+
 As far back as 2000, only two years after the specification of IPv6 was complete [@rfc2460], patents have been granted for an "IPv4-IPv6 converting apparatus" that works around some of the issues with conventional transitional measures. It is relatively complicated, and requires a dedicated converter sitting between the IPv4 and IPv6 hosts. [@tsuchiya2000] Another big drawback is that the technology is patented.
 
 # Method
