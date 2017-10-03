@@ -55,6 +55,8 @@ IPv4 and IPv6 use different, incompatible header formats, which is the reason fo
 
 It became apparent very quickly that a "switch day" was unrealistic, because of the diversity, number of hosts, and complexity of the Internet. Even before specifying IPv6, the IETF published an RFC dealing with the addressing architecture that was going to be used in IPv6. It contains two forms of transitional IPv6 addresses, termed "IPv4-compatible IPv6 addresses", and "IPv4-mapped IPv6 addresses". These contain 32-bit IPv4 addresses embedded in the 128-bit IPv6 addresses. [@rfc1884]
 
+From the beginning it was clear that these measures were not really satisfactory, and only transitional. The main factor that required the specification of a new Internet Protocol was the limited address space of IPv4. IPv4 offers only $2^{32} = 4294967296 \approx 4.3bn$ addresses [@rfc791]. This seemed like a lot back when it was specified, but turned out not to be sufficient with the prevalence of the Internet and Internet connected devices.
+
 # Method
 
 The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
