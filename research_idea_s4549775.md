@@ -73,6 +73,8 @@ Host-to-host encapsulation performs better with regards to latency, throughput, 
 
 As far back as 2000, only two years after the specification of IPv6 was complete [@rfc2460], patents have been granted for an "IPv4-IPv6 converting apparatus" that works around some of the issues with conventional transitional measures. It is relatively complicated, and requires a dedicated converter sitting between the IPv4 and IPv6 hosts. [@tsuchiya2000] Another big drawback is that the technology is patented.
 
+There are a lot of legacy devices in use that do not support IPv6, and probably never will. We cannot wait for all legacy devices to be replaced before moving on from IPv4. Every solution requiring both hosts to be aware is therefore inherently flawed. A satisfactory solution must work transparently for IPv4 hosts.
+
 IPv10 promises a superior solution to any of the previously named, in multiple aspects [@ipv10draft]. There is not much empirical evidence for these claims at the moment, as IPv10 is a very recent proposal. We want to change that with our research.
 
 # Method
